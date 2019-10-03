@@ -10,9 +10,9 @@ public class Painter extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("painter.fxml"));
-        primaryStage.setTitle("Painter App");
-        primaryStage.setScene(new Scene(root, 600, 400));
+        Parent root = FXMLLoader.load((getClass().getResource("painter.fxml")));
+                primaryStage.setTitle("Painter App");
+        primaryStage.setScene(new Scene(root, 650, 750));
         primaryStage.show();
     }
 
